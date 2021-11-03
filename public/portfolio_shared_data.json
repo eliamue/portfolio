@@ -11,7 +11,7 @@
         {
           "name": "linkedin",
           "url": "https://www.linkedin.com/eliamue/",
-          "class": "fab fa-instagram"
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -19,49 +19,60 @@
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "class": "devicon-react-original",
+          "name": "React"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "postgreSQL"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "node"
         },
         {
           "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "class": "devicon-sass-original"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-bootstrap-plain"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "class": "devicon-express-original",
+          "name": "Express"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain"
+        },
+                {
+          "name": "VScode",
+          "class": "devicon-visualstudio-plain"
+        },
+        {
+          "name": "Sequelize",
+          "class": "devicon-sequelize-plain"
+        },
+        {
+          "name": "Slack",
+          "class": "devicon-slack-plain"
         }
       ]
     }

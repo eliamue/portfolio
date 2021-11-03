@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "I'm Elise Muellerleile. ",
+    "description_header": "Hi there!",
+    "description": "I'm Elise Muellerleile. My goal is to combine my background experience with my ever-developing tech skills in software development to improve the inclusivity, beauty, and accessibility of technology. I am passionate about building dynamic apps and web experiences that accommodate the needs of marginalized communities that have long been excluded from innovative technology. Experienced, driven learner and creator. While my background is specialized in the mental health field, I use the diverse skills from my unique experiences to emphasize creativity, empathy, and inclusiveness in my work. Whether it’s working front-end or back-end, alone or in a team, as a leader or supporter, I've got energy and determination to share! I am fiercely dedicated to managing goals end-to-end, and am eager to find a diverse team to work with to develop striking, accessible user experiences.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -25,12 +25,20 @@
           "name": "React"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-postgresql-plain",
+          "name": "postgreSQL"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "node"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
         }
       ]
     },
@@ -44,13 +52,25 @@
       ],
       "url": "https://github.com/safeSRC",
       "technologies": [
-        {
+{
           "class": "devicon-react-original",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "postgreSQL"
+        },
+                {
+          "class": "devicon-nodejs-plain",
+          "name": "node"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
         }
       ]
     },
@@ -68,72 +88,23 @@
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
         },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+                {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-html5-plain",
+          "name": "HTML"
         }
       ]
     }
   ],
-  "experience": [
+   "education": [
     {
       "company": "Alchemy Code Lab",
       "title": "Full-Stack Software Developer",
       "years": "2021",
       "mainTech": ["Education"],
-      "technologies": [
-        "React",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Express",
-        "postgreSQL",
-        "REST API",
-        "Cheerio",
-        "Web scraping",
-        "TDD"
-      ]
-    },
-    {
-      "company": "People Incorporated",
-      "title": "ARMHS Mental Health Practitioner",
-      "years": "1.2018 - 3.2019",
-      "mainTech": ["Work Experience: Mental Health"],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
-      ]
-    },
-    {
-      "company": "Asmodee North America / Fantasy Flight Games",
-      "title": "Sales Administration Coordinator",
-      "years": "01.2016 - 09.2017",
-      "mainTech": ["Work Experience: Board Game Publishing"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
-    },
-    {
-      "company": "Radius Health (f. South Metro Human Services)",
-      "title": "Mental Health Counselor",
-      "years": "07.2014 - 12.2015",
-      "mainTech": ["Work Experience: Mental Health"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
-    },
-    {
-      "company": "Saint Paul Music Academy",
-      "title": "EBD Teaching Assistant",
-      "years": "10.2013 - 06.2014",
-      "mainTech": ["Work Experience: Mental Health"],
       "technologies": [
         "React",
         "JavaScript",
@@ -165,6 +136,68 @@
       "years": "09.2006 - 06.2008",
       "mainTech": ["Education"],
       "technologies": ["Oil Painting", "Graphic Design", "Printmaking"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Alchemy Code Lab",
+      "title": "Full-Stack Software Developer",
+      "years": "2021",
+      "mainTech": ["Education"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Express",
+        "postgreSQL",
+        "REST API",
+        "Cheerio",
+        "Web scraping",
+        "TDD"
+      ]
+    },
+    {
+      "company": "People Incorporated",
+      "title": "ARMHS Mental Health Practitioner",
+      "years": "1.2018 - 3.2019",
+      "mainTech": ["Work"],
+      "technologies": [
+        "REST API",
+        "RxJS"
+      ]
+    },
+    {
+      "company": "Asmodee North America / Fantasy Flight Games",
+      "title": "Sales Administration Coordinator",
+      "years": "01.2016 - 09.2017",
+      "mainTech": ["Work"],
+      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+    },
+    {
+      "company": "Radius Health (f. South Metro Human Services)",
+      "title": "Mental Health Counselor",
+      "years": "07.2014 - 12.2015",
+      "mainTech": ["Work"],
+      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+    },
+    {
+      "company": "Saint Paul Music Academy",
+      "title": "EBD Teaching Assistant",
+      "years": "10.2013 - 06.2014",
+      "mainTech": ["Work"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Express",
+        "postgreSQL",
+        "REST API",
+        "Cheerio",
+        "Web scraping",
+        "TDD"
+      ]
     }
   ]
 }
