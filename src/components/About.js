@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import angularIcon from "@iconify/icons-logos/postgresql";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import vueIcon from "@iconify/icons-logos/javascript";
+import cssIcon from "@iconify/icons-logos/css-3";
+import htmlIcon from "@iconify/icons-logos/html-5";
+import nodeIcon from "@iconify/icons-logos/nodejs-icon";
+import efIcon from "@iconify/icons-logos/heroku-icon";
+
+
 
 class About extends Component {
   render() {
@@ -42,6 +48,22 @@ class About extends Component {
                     icon={vueIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                  <Icon
+                    icon={cssIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={htmlIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={nodeIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={efIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
                 </span>
               </div>
             </div>
@@ -77,7 +99,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}
