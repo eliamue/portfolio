@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/postgresql";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/javascript";
+import jsIcon from "@iconify/icons-logos/javascript";
 import cssIcon from "@iconify/icons-logos/css-3";
 import htmlIcon from "@iconify/icons-logos/html-5";
 import nodeIcon from "@iconify/icons-logos/nodejs-icon";
-import efIcon from "@iconify/icons-logos/heroku-icon";
 import profilepic from "../assets/myProfile.jpg";
 
 class About extends Component {
@@ -26,40 +24,38 @@ class About extends Component {
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span style={{ 
+                  cursor: "auto" }}>
                   <img
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
                     icon={reactIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                      <Icon
+                        icon={cssIcon}
+                        style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                      />
+                    <span
+                      class="iconify"
+                      data-icon="vscode-icons:file-type-sql"
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    ></span>
                   <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={cssIcon}
+                    icon={jsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={htmlIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  <Icon
-                    icon={nodeIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={efIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                    <Icon
+                      icon={nodeIcon}
+                      style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    />
                 </span>
               </div>
             </div>

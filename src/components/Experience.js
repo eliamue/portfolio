@@ -36,7 +36,7 @@ class Experience extends Component {
             date={work.years}
             iconStyle={{
               background: "#AE944F",
-              color: "#fff",
+              color: "black",
               textAlign: "center",
             }}
             icon={<WorkIcon />}

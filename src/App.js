@@ -37,10 +37,10 @@ class App extends Component {
         : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(100%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(100%)");
+      .setAttribute("filter", "brightness(30%)");
   }
 
   componentDidMount() {

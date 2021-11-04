@@ -38,7 +38,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="x-lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"

@@ -1,107 +1,129 @@
-body[data-theme="dark"] {  
+body[data-theme="dark"] {
+  @import "../src/scss/dark-slider.scss";
 
-   @import '../src/scss/dark-slider.scss';
+  .slider-tab {
+    background-color: #997f9b;
+  }
 
-   .slider-tab {
-      background-color: #8C8C8C;
-   }
+  .title-styles {
+    color: white;
+  }
 
-   .title-styles {
-      color: white;
-   }
+  .header-icon {
+    color: #3c342c;
+    opacity: 0.8;
+  }
 
-   .header-icon {
-      color: #3C342C;
-      opacity: 0.8;
-   }
+  .slider-image {
+    border: 5px solid #8c8c8c;
+  }
 
-   .slider-image {
-      border: 5px solid #8C8C8C;
-   }
+  .language {
+    background-color: #130101;
+  }
 
-   .language {
-      background-color: #494949;
-   }
+  .link-href {
+    color: white;
+  }
 
-   .link-href {
-      color: white;
-   }
+  .project-date {
+    background-color: #918e97;
+    color: white;
+  }
 
-   .project-date {
-      background-color: #918e97;
-      color: white;
-   }
+  header {
+    background-color: #0e0101;
+    h1 {
+      color: rgb(199, 195, 195);
+    }
+  }
 
-   header {
-      background-color: #494949;
-      h1 {
-         color: white;
-      }
-   }
+  #about {
+    background-color: #170101;
+    h1 span {
+      color: rgb(210, 206, 206);
+    }
+    .polaroid span {
+      background: #2b0338;
+    }
+    .card {
+      background: #2b0338;
+      color: rgb(191, 189, 189);
+    }
+  }
 
-   #about {
-      background-color: #7f7f7f;
-      h1 span {
-         color: white;
-      }
-      .polaroid span {
-         background:  #6d6d6d;
-      }
-      .card {
-         background: #6d6d6d;
-         color: white;
-      }
-   }
+  #portfolio {
+    background: #290303;
+    .section-title {
+      color: rgb(214, 213, 213) !important;
+    }
+    .foto div {
+      background: #1c0224;
+    }
+    .project-title-settings {
+      color: rgb(207, 198, 198);
+    }
+  }
 
-   #portfolio {
-      background: #5b5b5b;
-      .section-title {
-         color: white !important;
-      }
-      .foto div {
-         background: #6d6d6d;
-      }
-      .project-title-settings {
-         color: white;
-      }
-   }
+  #skills {
+    background: #351c42;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10%;
+    color: #8c8c8c;
+  }
 
-   #resume {
-      filter: brightness(80%);
-      background: #5b5b5b;
-      .section-title {
-         color: white !important;
-      }
+  #resume {
+    filter: brightness(80%);
+    background: #5a2b5c;
+    color: black;
+    .section-title {
+      color: rgb(214, 196, 216) !important;
+    }
 
-      .experience-badge {
-         background: #919191 !important;
-         color: white;
-      }
+    .experience-badge {
+      background: #4f2a52 !important;
+      color: rgb(216, 210, 210);
+    }
 
-      .main-badge {
-         background: #919191 !important;
-      }
+    .main-badge {
+      background: #926594 !important;
+      color: black;
+    }
 
+    .vertical-timeline-element-date {
+      color: rgb(0, 0, 0);
+    }
+
+    .vertical-timeline-element-content {
+      background-color: rgb(108, 74, 114);
+      box-shadow: 0 3px 0 rgb(53, 15, 15);
+      -webkit-box-shadow: 0 3px 0 rgb(52, 11, 11);
+    }
+
+    .vertical-timeline-element-icon {
+      background: #6e3c83 !important;
+      border: 5px solid black;
+    }
+    
+    @media only screen and (max-width: 1169px) {
       .vertical-timeline-element-date {
-         color: white;
+        color: black;
       }
+    }
+  }
 
-      .vertical-timeline-element-icon {
-         background: #919191 !important;
-      }
-      @media only screen and (max-width: 1169px) { 
-         .vertical-timeline-element-date {
-            color: black;
-         }
-      }
-   }
+.vertical-timeline::before {
+    background: rgb(38, 4, 4);
 
-   .modal-inside .modal-content {
-      background: #5b5b5b;
-      color: white;
-   }
+  .modal-inside .modal-content {
+    background: #411212;
+    color: rgb(167, 162, 162);
+  }
 
-   .close-icon {
-      color: white;
-   }
+  .close-icon {
+    color: rgb(167, 164, 164);
+  }
+}
 }
