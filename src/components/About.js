@@ -7,14 +7,10 @@ import cssIcon from "@iconify/icons-logos/css-3";
 import htmlIcon from "@iconify/icons-logos/html-5";
 import nodeIcon from "@iconify/icons-logos/nodejs-icon";
 import efIcon from "@iconify/icons-logos/heroku-icon";
-
-
+import profilepic from "../assets/myProfile.jpg";
 
 class About extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-    }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;

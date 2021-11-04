@@ -5,9 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
-import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
-import Education from "./Education";
 
 class Experience extends Component {
   render() {
@@ -78,36 +76,9 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-          <VerticalTimelineElement
-            iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
-              textAlign: "center",
-            }}
-            company="Perpich Center for Arts Education"
-            title="High School Diploma in Visual Arts"
-            years="09.2006 - 06.2008"
-            mainTech="[Education]"
-            technologies="[Oil Painting, Graphic Design, Printmaking]"
-            icon={<SchoolIcon />}
-          />
-          <VerticalTimeline
-            iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
-              textAlign: "center",
-            }}
-            icon={<SchoolIcon />}
-          >
-            <Education 
-            company="Perpich"
-            title="pooper"
-            years="5ever"
-            mainTech="butt"
-            technologies="butt"
-            />
+          <VerticalTimeline>
+            {work}
           </VerticalTimeline>
-          <VerticalTimeline>{work}</VerticalTimeline>
         </div>
       </section>
     );

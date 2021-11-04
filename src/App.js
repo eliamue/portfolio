@@ -37,10 +37,10 @@ class App extends Component {
         : window.$primaryLanguageIconId;
     document
       .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(40%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(100%)");
   }
 
   componentDidMount() {
@@ -96,7 +96,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="fa-solid:laptop-code"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -112,7 +112,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="icon-park-outline:personal-collection"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>

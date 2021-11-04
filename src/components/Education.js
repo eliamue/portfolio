@@ -11,7 +11,6 @@ import SchoolIcon from "@material-ui/icons/School";
 class Education extends Component {
   render() {
     if (this.props.eduExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience.education;
       var school = this.props.eduExperience.map(function (school, i) {
         const technologies = school.technologies;
         const mainTechnologies = school.mainTech;
@@ -71,7 +70,7 @@ class Education extends Component {
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
+                EDUCATION
               </span>
             </h1>
           </div>

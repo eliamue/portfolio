@@ -12,6 +12,16 @@
           "name": "linkedin",
           "url": "https://www.linkedin.com/eliamue/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "email",
+          "url": "mailto:eliamue@live.com",
+          "class": "fa fa-envelope"
+        },
+        {
+          "name": "phone",
+          "url": "tel:6512458607",
+          "class": "fa fa-phone"
         }
       ],
       "image": "myProfile.jpg"

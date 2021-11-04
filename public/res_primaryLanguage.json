@@ -1,12 +1,13 @@
 {
   "basic_info": {
-    "description_header": "Hi there!",
+    "description_header": "<HelloWorld/>",
     "description": "I'm Elise Muellerleile. My goal is to combine my background experience with my ever-developing tech skills in software development to improve the inclusivity, beauty, and accessibility of technology. I am passionate about building dynamic apps and web experiences that accommodate the needs of marginalized communities that have long been excluded from innovative technology. Experienced, driven learner and creator. While my background is specialized in the mental health field, I use the diverse skills from my unique experiences to emphasize creativity, empathy, and inclusiveness in my work. Whether it’s working front-end or back-end, alone or in a team, as a leader or supporter, I've got energy and determination to share! I am fiercely dedicated to managing goals end-to-end, and am eager to find a diverse team to work with to develop striking, accessible user experiences.",
     "section_name": {
-      "about": "About me",
+      "about": "About Me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Work Experience",
+      "education": "Education"
     }
   },
   "projects": [
@@ -15,8 +16,11 @@
       "startDate": "2021",
       "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two=week sprint using React, Espress, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn has continued to be developed , and a demo version will be available soon!",
       "images": [
-        "images/portfolio/projects/vibn.png",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "https://vibn.netlify.app/0309f44619538eac57555d0789af1b9a.png",
+        "/images/torr.png",
+        "/userlist.png",
+        "../assets/match.png",
+        "../assets/message.png"
       ],
       "url": "https://github.com/Vibn-App",
       "technologies": [
@@ -47,7 +51,7 @@
       "startDate": "2021",
       "description": "safeSRC is a community safety app that provides resources for 24/7 emergency services as a safer alternative to calling the police. Based on location, emergencies are filtered into selectable categories using a simple, clean UI to make navigation as accessible as possible when time is of the essence. Created by a remote team of 5 during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Auth.",
       "images": [
-        "images/portfolio/projects/safesrc-spinner.png",
+        "https://safesrc.netlify.app/static/media/name.11addf47.png",
         "images/portfolio/projects/safesrc-name.png"
       ],
       "url": "https://github.com/safeSRC",
@@ -79,7 +83,7 @@
       "startDate": "2021",
       "description": "Tales of Torr: The Quest to Defeat the Everlasting Dragon is a retro RPG inspired game where the user takes on the role of one of three heroes capable of searching for and defeating the everlasting dragon plaguing the town. Fight monsters in the wilderness, improve your strengths with mystical potions, visit a strange laboratory; all this and more in Tales of Torr. Created by a remote team of five during a five day sprint using Javascript, HTML, and CSS.",
       "images": [
-        "images/portfolio/projects/torr.png",
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b58fb237-e248-46ac-9b8b-939d1f8be915/dcmsncj-916adcc9-f0c6-4c6d-8443-aacbcbe0621b.png/v1/fill/w_894,h_894,strp/the_black_dragon_legion_by_projectwarsword_dcmsncj-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwMCIsInBhdGgiOiJcL2ZcL2I1OGZiMjM3LWUyNDgtNDZhYy05YjhiLTkzOWQxZjhiZTkxNVwvZGNtc25jai05MTZhZGNjOS1mMGM2LTRjNmQtODQ0My1hYWNiY2JlMDYyMWIucG5nIiwid2lkdGgiOiI8PTE3MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GeBPQWfKy_f5asMsbCBoLrC31IweHcf6UQC1uiMOCkY",
         "images/portfolio/adventure/p2.jpg"
       ],
       "url": "https://github.com",
@@ -104,8 +108,9 @@
       "company": "Alchemy Code Lab",
       "title": "Full-Stack Software Developer",
       "years": "2021",
-      "mainTech": ["Education"],
+      "mainTech": ["Coding Bootcamp"],
       "technologies": [
+        "100% Remote",
         "React",
         "JavaScript",
         "CSS",
@@ -122,7 +127,7 @@
       "company": "Lewis & Clark College",
       "title": "B.A. in Psychology",
       "years": "08.2008 - 05.2012",
-      "mainTech": ["Education"],
+      "mainTech": ["College"],
       "technologies": [
         "Cognitive Neuroscience Lab: Lab Assistant",
         "Theater Minor",
@@ -134,34 +139,16 @@
       "company": "Perpich Center for Arts Education",
       "title": "High School Diploma in Visual Arts",
       "years": "09.2006 - 06.2008",
-      "mainTech": ["Education"],
+      "mainTech": ["High School"],
       "technologies": ["Oil Painting", "Graphic Design", "Printmaking"]
     }
   ],
   "experience": [
     {
-      "company": "Alchemy Code Lab",
-      "title": "Full-Stack Software Developer",
-      "years": "2021",
-      "mainTech": ["Education"],
-      "technologies": [
-        "React",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Express",
-        "postgreSQL",
-        "REST API",
-        "Cheerio",
-        "Web scraping",
-        "TDD"
-      ]
-    },
-    {
       "company": "People Incorporated",
       "title": "ARMHS Mental Health Practitioner",
       "years": "1.2018 - 3.2019",
-      "mainTech": ["Work"],
+      "mainTech": ["Mental Health", "In-Home Care", "Mobile ILS"],
       "technologies": [
         "REST API",
         "RxJS"
@@ -171,21 +158,21 @@
       "company": "Asmodee North America / Fantasy Flight Games",
       "title": "Sales Administration Coordinator",
       "years": "01.2016 - 09.2017",
-      "mainTech": ["Work"],
+      "mainTech": ["Board Game Publishing", "Sales"],
       "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
     },
     {
       "company": "Radius Health (f. South Metro Human Services)",
       "title": "Mental Health Counselor",
       "years": "07.2014 - 12.2015",
-      "mainTech": ["Work"],
+      "mainTech": ["Mental Health", "In-Home Care", "Group Home"],
       "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
     },
     {
       "company": "Saint Paul Music Academy",
       "title": "EBD Teaching Assistant",
       "years": "10.2013 - 06.2014",
-      "mainTech": ["Work"],
+      "mainTech": ["Mental Health", "Childhood Education"],
       "technologies": [
         "React",
         "JavaScript",
