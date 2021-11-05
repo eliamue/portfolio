@@ -2,7 +2,7 @@ body[data-theme="dark"] {
   @import "../src/scss/dark-slider.scss";
 
   .slider-tab {
-    background-color: #997f9b;
+    background-color: #633867;
   }
 
   .title-styles {
@@ -10,12 +10,27 @@ body[data-theme="dark"] {
   }
 
   .header-icon {
-    color: #3c342c;
+    color: #a079b1;
     opacity: 0.8;
   }
 
+  .language-icon {
+	font-size: 50px;
+	padding: 5px;
+	border: 3px solid transparent;
+	color: rgb(207, 184, 216);
+}
+
+.language-icon:hover {
+	font-size: 50px;
+	cursor: pointer;
+	border: 3px solid rgb(52, 42, 52);
+	padding: 5px;
+	border-radius: 10px;
+}
+
   .slider-image {
-    border: 5px solid #8c8c8c;
+    border: 5px solid #542c57;
   }
 
   .language {
@@ -34,61 +49,76 @@ body[data-theme="dark"] {
   header {
     background-color: #0e0101;
     h1 {
-      color: rgb(199, 195, 195);
+      color: #eee1f4;
     }
   }
 
   #about {
     background-color: #170101;
     h1 span {
-      color: rgb(210, 206, 206);
+      color: #eee1f4;
     }
     .polaroid span {
       background: #2b0338;
     }
     .card {
       background: #2b0338;
-      color: rgb(191, 189, 189);
+      color: #eee1f4;
     }
   }
 
   #portfolio {
     background: #290303;
     .section-title {
-      color: rgb(214, 213, 213) !important;
+      color: #eee1f4 !important;
     }
     .foto div {
-      background: #1c0224;
+      background: #432c4b;
     }
     .project-title-settings {
       color: rgb(207, 198, 198);
     }
   }
 
+  .section-title {
+	color: #eee1f4;
+}
+
   #skills {
-    background: #351c42;
+    background: #442753;
     min-height: 200px;
     width: 100%;
     overflow: hidden;
     padding-bottom: 10%;
-    color: #8c8c8c;
+    color: #eee1f4;
   }
+
+.skill-icon {
+	font-size: 180%;
+	color: #eee1f4;
+	text-align: center;
+	position: relative;
+}
+
+.skills-tile {
+  background-color: rgb(45, 25, 50);
+}
 
   #resume {
     filter: brightness(80%);
     background: #5a2b5c;
-    color: black;
+    color: #eee1f4;
     .section-title {
-      color: rgb(214, 196, 216) !important;
+      color: #eee1f4 !important;
     }
 
     .experience-badge {
       background: #4f2a52 !important;
-      color: rgb(216, 210, 210);
+      color: #eee1f4;
     }
 
     .main-badge {
-      background: #926594 !important;
+      background: #a377a5 !important;
       color: black;
     }
 
@@ -98,6 +128,7 @@ body[data-theme="dark"] {
 
     .vertical-timeline-element-content {
       background-color: rgb(108, 74, 114);
+      color: #eee1f4;
       box-shadow: 0 3px 0 rgb(53, 15, 15);
       -webkit-box-shadow: 0 3px 0 rgb(52, 11, 11);
     }
@@ -105,6 +136,11 @@ body[data-theme="dark"] {
     .vertical-timeline-element-icon {
       background: #6e3c83 !important;
       border: 5px solid black;
+      color: #eee1f4;
+    }
+
+    .vertical-timeline-element-title {
+      color: #eee1f4;
     }
     
     @media only screen and (max-width: 1169px) {
@@ -114,16 +150,42 @@ body[data-theme="dark"] {
     }
   }
 
+.modal-close, .modal-content {
+	background-color: #38233f;
+  color: #eee1f4;
+}
+
 .vertical-timeline::before {
     background: rgb(38, 4, 4);
 
   .modal-inside .modal-content {
     background: #411212;
-    color: rgb(167, 162, 162);
+    color: #eee1f4;
   }
 
   .close-icon {
-    color: rgb(167, 164, 164);
+    color: #eee1f4;
   }
 }
+footer {
+	background: var(--zz-color);
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	color: #eee1f4;
+	position: relative;
+	text-align: center;
+}
+
+footer a,
+footer a:visited {
+	color: #eee1f4;
+}
+
+footer a:hover,
+footer a:focus {
+	color: black;
+}
+
 }

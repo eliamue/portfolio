@@ -17,6 +17,7 @@
       "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two=week sprint using React, Espress, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn has continued to be developed , and a demo version will be available soon!",
       "images": [
         "https://vibn.netlify.app/0309f44619538eac57555d0789af1b9a.png",
+        "/images/profile.jpg",
         "/images/userlist.jpg",
         "/images/match.jpg",
         "/images/message.jpg"
@@ -51,7 +52,8 @@
       "description": "safeSRC is a community safety app that provides resources for 24/7 emergency services as a safer alternative to calling the police. Based on location, emergencies are filtered into selectable categories using a simple, clean UI to make navigation as accessible as possible when time is of the essence. Created by a remote team of 5 during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Auth.",
       "images": [
         "/images/safesrc-spinner.png",
-        "/images/safesrc-name.png"
+        "/images/safesrc-home.jpg",
+        "/images/safesrc-search.jpg"
       ],
       "url": "https://github.com/safeSRC",
       "technologies": [

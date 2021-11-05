@@ -35,8 +35,8 @@ class Education extends Component {
             className="vertical-timeline-element--school"
             date={school.years}
             iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
+              background: "#b190cd",
+              color: "black",
               textAlign: "center",
             }}
             icon={<SchoolIcon />}
