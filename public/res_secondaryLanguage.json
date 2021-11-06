@@ -1,72 +1,69 @@
 {
-    "basic_info": {
-      "description_header": "Bonjour, 안녕하세요",
-      "description": "👋 hiiiiii i like things and stuff 💜",
-      "section_name": {
-        "about": "Creative Nerd",
-        "projects": "Passions",
-        "skills": "Umiejętności",
-        "experience": "neat",
-        "education": "puppy party"
-      }
+  "basic_info": {
+    "description_header": "Bonjour, 안녕하세요",
+    "description": "👋 hiiiiii i like things and stuff 💜",
+    "section_name": {
+      "about": "Creative Nerd",
+      "projects": "Passions",
+      "skills": "Skills",
+      "experience": "Work Experience",
+      "education": "Education"
+    }
+  },
+  "projects": [
+    {
+      "title": "Pets",
+      "startDate": "2006",
+      "description": "My cat Teen Wolf, ball python Melhissandre, and late beagle soulmate, Zoey.",
+      "images": [
+        "images/passions/pets/teen.jpeg",
+        "images/passions/pets/meli.jpg",
+        "images/passions/pets/zoey.jpg"
+      ],
+      "url": "",
+      "technologies": []
     },
-    "projects": [
-      {
-        "title": "Pets",
-        "startDate": "2006",
-        "description": "My cat Teen Wolf, ball python Melhissandre, and late beagle soulmate, Zoey.",
-        "images": [
-          "images/passions/pets/teen.jpeg",
-          "images/passions/pets/meli.jpg",
-          "images/passions/pets/zoey.jpg"
-        ],
-        "url": "",
-        "technologies": []
-      },
-      {
-        "title": "Dogmelon Desiderata",
-        "startDate": "2020",
-        "description": "Dogmelon Desiderata: Homemade soy candles made with custom blends of essential oils, fried flora, and upcycled teacups/teapots.",
-        "images": [
-          "images/passions/candles/rose.jpg",
-          "images/passions/candles/treats.jpg",
-          "images/passions/candles/forest.jpg",
-          "images/passions/candles/garden.jpg",
-          "images/passions/candles/paris.jpg",
-          "images/passions/candles/limoncello.jpg",
-          "images/passions/candles/captain3.jpg"
-        ],
-        "url": "",
-        "technologies": []
-      },
-      {
-        "title": "Gish",
-        "startDate": "2018",
-        "description": "Gish, aka the Greatest International Scavenger Hunt (the world has ever seen): A week-long sprint to complete as many creative, bizarre, and ",
-        "images": [
-          "images/passions/gish/spice.jpg",
-          "images/passions/gish/fish.jpg",
-          "images/passions/gish/murray.jpg",
-          "images/passions/gish/floral.jpg",
-          "images/passions/gish/sg.jpg",
-          "images/passions/gish/zombie.jpg",
-          "images/passions/gish/kale.jpeg",
-          "images/passions/gish/queen.jpg"
-        ],
-        "url": "https://www.gish.com/",
-        "technologies": []
-      }
-    ],
-    "experience": [
+    {
+      "title": "Dogmelon Desiderata",
+      "startDate": "2020",
+      "description": "Dogmelon Desiderata: Homemade soy candles made with custom blends of essential oils, fried flora, and upcycled teacups/teapots.",
+      "images": [
+        "images/passions/candles/rose.jpg",
+        "images/passions/candles/treats.jpg",
+        "images/passions/candles/forest.jpg",
+        "images/passions/candles/garden.jpg",
+        "images/passions/candles/paris.jpg",
+        "images/passions/candles/limoncello.jpg",
+        "images/passions/candles/captain3.jpg"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Gish",
+      "startDate": "2013",
+      "description": "Gish, aka the Greatest International Scavenger Hunt (the world has ever seen): A week-long sprint to complete as many creative, bizarre, and ",
+      "images": [
+        "images/passions/gish/spice.jpg",
+        "images/passions/gish/fish.jpg",
+        "images/passions/gish/murray.jpg",
+        "images/passions/gish/floral.jpg",
+        "images/passions/gish/sg.jpg",
+        "images/passions/gish/zombie.jpg",
+        "images/passions/gish/kale.jpeg",
+        "images/passions/gish/queen.jpg"
+      ],
+      "url": "https://www.gish.com/",
+      "technologies": []
+    }
+  ],
+  "experience": [
     {
       "company": "People Incorporated",
       "title": "ARMHS Mental Health Practitioner",
       "years": "1.2018 - 3.2019",
       "mainTech": ["Mental Health", "In-Home Care", "Mobile ILS"],
-      "technologies": [
-        "REST API",
-        "RxJS"
-      ]
+      "technologies": ["REST API", "RxJS"]
     },
     {
       "company": "Asmodee North America / Fantasy Flight Games",
@@ -100,8 +97,8 @@
         "TDD"
       ]
     }
-    ],
-    "education": [
+  ],
+  "education": [
     {
       "company": "Alchemy Code Lab",
       "title": "Full-Stack Software Developer",
@@ -141,4 +138,4 @@
       "technologies": ["Oil Painting", "Graphic Design", "Printmaking"]
     }
   ]
-  }
+}
