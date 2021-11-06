@@ -4,7 +4,6 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
-
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -39,7 +38,7 @@ class ProjectDetailsModal extends Component {
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="x-lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"
@@ -73,6 +72,7 @@ class ProjectDetailsModal extends Component {
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
+              style={{ height: "380px" }}
             >
               {img}
             </AwesomeSlider>

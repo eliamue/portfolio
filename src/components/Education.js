@@ -5,15 +5,15 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
-import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@material-ui/icons/School";
 
-class Experience extends Component {
+
+class Education extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+    if (this.props.eduExperience && this.props.resumeBasicInfo) {
+      var school = this.props.eduExperience.map(function (school, i) {
+        const technologies = school.technologies;
+        const mainTechnologies = school.mainTech;
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -32,14 +32,14 @@ class Experience extends Component {
 
         return (
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={work.years}
+            className="vertical-timeline-element--school"
+            date={school.years}
             iconStyle={{
               background: "#b190cd",
               color: "black",
               textAlign: "center",
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -50,13 +50,13 @@ class Experience extends Component {
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
-              {work.title}
+              {school.title}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {school.company}
             </h4>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
@@ -70,14 +70,14 @@ class Experience extends Component {
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
-                {sectionName}
+                EDUCATION
               </span>
             </h1>
           </div>
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-            {work}
+            {school}
           </VerticalTimeline>
         </div>
       </section>
@@ -85,4 +85,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Education;
