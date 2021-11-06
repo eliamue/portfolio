@@ -17,10 +17,10 @@
       "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two=week sprint using React, Espress, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn has continued to be developed , and a demo version will be available soon!",
       "images": [
         "https://vibn.netlify.app/0309f44619538eac57555d0789af1b9a.png",
-        "/images/profile.jpg",
-        "/images/userlist.jpg",
-        "/images/match.jpg",
-        "/images/message.jpg"
+        "/images/portfolio/vibn/profile.jpg",
+        "/images/portfolio/vibn/userlist.jpg",
+        "/images/portfolio/vibn/match.jpg",
+        "/images/portfolio/vibn/message.jpg"
       ],
       "url": "https://github.com/Vibn-App",
       "technologies": [
@@ -51,9 +51,9 @@
       "startDate": "2021",
       "description": "safeSRC is a community safety app that provides resources for 24/7 emergency services as a safer alternative to calling the police. Based on location, emergencies are filtered into selectable categories using a simple, clean UI to make navigation as accessible as possible when time is of the essence. Created by a remote team of 5 during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Auth.",
       "images": [
-        "/images/safesrc-spinner.png",
-        "/images/safesrc-home.jpg",
-        "/images/safesrc-search.jpg"
+        "/images/portfolio/safesrc/safesrc-spinner.png",
+        "/images/portfolio/safesrc/safesrc-home.jpg",
+        "/images/portfolio/safesrc/safesrc-search.jpg"
       ],
       "url": "https://github.com/safeSRC",
       "technologies": [
@@ -85,13 +85,13 @@
       "description": "Tales of Torr: The Quest to Defeat the Everlasting Dragon is a retro RPG inspired game where the user takes on the role of one of three heroes capable of searching for and defeating the everlasting dragon plaguing the town. Fight monsters in the wilderness, improve your strengths with mystical potions, visit a strange laboratory; all this and more in Tales of Torr. Created by a remote team of five during a five day sprint using Javascript, HTML, and CSS.",
       "images": [
         "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b58fb237-e248-46ac-9b8b-939d1f8be915/dcmsncj-916adcc9-f0c6-4c6d-8443-aacbcbe0621b.png/v1/fill/w_894,h_894,strp/the_black_dragon_legion_by_projectwarsword_dcmsncj-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwMCIsInBhdGgiOiJcL2ZcL2I1OGZiMjM3LWUyNDgtNDZhYy05YjhiLTkzOWQxZjhiZTkxNVwvZGNtc25jai05MTZhZGNjOS1mMGM2LTRjNmQtODQ0My1hYWNiY2JlMDYyMWIucG5nIiwid2lkdGgiOiI8PTE3MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GeBPQWfKy_f5asMsbCBoLrC31IweHcf6UQC1uiMOCkY",
-        "/images/torr-home.png",
-        "/images/torr-signup.png",
-        "/images/torr-map.png",
-        "/images/torr-fight2.png",
-        "/images/torr-church.png",
-        "/images/torr-defeat.png",
-        "/images/torr-boss.png"
+        "/images/portfolio/torr/torr-home.png",
+        "/images/portfolio/torr/torr-signup.png",
+        "/images/portfolio/torr/torr-map.png",
+        "/images/portfolio/torr/torr-fight2.png",
+        "/images/portfolio/torr/torr-church.png",
+        "/images/portfolio/torr/torr-defeat.png",
+        "/images/portfolio/torr/torr-boss.png"
       ],
       "url": "https://github.com",
       "technologies": [
@@ -110,7 +110,7 @@
       ]
     }
   ],
-   "education": [
+  "education": [
     {
       "company": "Alchemy Code Lab",
       "title": "Full-Stack Software Developer",
