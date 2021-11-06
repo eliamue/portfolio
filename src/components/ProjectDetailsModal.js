@@ -72,7 +72,12 @@ class ProjectDetailsModal extends Component {
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
-              style={{ height: "380px" }}
+              style={{
+                height: "380px",
+                marginBottom: 0,
+                paddingBottom: 0,
+                position: "relative",
+              }}
             >
               {img}
             </AwesomeSlider>
