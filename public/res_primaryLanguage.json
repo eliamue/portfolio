@@ -12,6 +12,24 @@
   },
   "projects": [
     {
+      "title": "RoundRobin",
+      "startDate": "2021",
+      "description": "RoundRobin, created in a remote 2-day hackathon Road to Code, is a Discord bot that runs a game of collaborative, roudn robin-style short story telling. The users input a command to be given a randomly generated prompt, and RoundRobin chooses the order for and alerts each user to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, and 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt. RoundRobin also provides the option for text-to-speech, to read the story out loud at any time.",
+      "images": [
+        "/images/portfolio/robin/robin.png",
+        "/images/portfolio/robin/prompt.png",
+        "/images/portfolio/robin/commands.png",
+        "/images/portfolio/robin/alert.png"
+      ],
+      "url": "https://github.com/The-Road-to-Code/Willow",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "node"
+        }
+      ]
+    },
+    {
       "title": "Vibn",
       "startDate": "2021",
       "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two=week sprint using React, Espress, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn has continued to be developed , and a demo version will be available soon!",
