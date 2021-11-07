@@ -129,11 +129,7 @@ header {
 #resume {
 	background: var(--f-color);
 	.vertical-timeline-element-content {
-		position: relative;
-		margin-left: 60px;
 		background: var(--b-color);
-		border-radius: 0.25em;
-		padding: 1em;
 		-webkit-box-shadow: 0 3px 0 var(--h-color);
 		box-shadow: 0 3px 0 var(--h-color);
 	}
