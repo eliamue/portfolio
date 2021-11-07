@@ -15,7 +15,7 @@
     {
       "title": "RoundRobin",
       "startDate": "2021",
-      "description": "RoundRobin, created in a remote 2-day hackathon Road to Code, is a Discord bot that runs a game of collaborative, roudn robin-style short story telling. The users input a command to be given a randomly generated prompt, and RoundRobin chooses the order for and alerts each user to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, and 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt. RoundRobin also provides the option for text-to-speech, to read the story out loud at any time.",
+      "description": "RoundRobin, created in a remote 2-day hackathon Road to Code, is a Discord bot that runs a game of collaborative, roudn robin-style short story telling. The users input a command to be given a randomly generated prompt from a selection of story types, and can tag another user for RoundRobin to alert to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt, and 'speak', which uses Discord's text-to-speech capabilities to read the stroy progress aloud.",
       "images": [
         "/images/portfolio/robin/robin.png",
         "/images/portfolio/robin/prompt.png",
