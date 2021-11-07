@@ -1,32 +1,21 @@
 {
   "basic_info": {
-    "description_header": "Bonjour, 안녕하세요",
-    "description": "👋 hiiiiii i like things and stuff 💜",
+    "description_header": "Bonjour, 안녕하세요, and cheers!",
+    "description": "Born and raised in the Twin Cities, my hobbies keep me very busy when I'm not coding. I love to learn, and aside from continuing to hone my dev skills, I've been learning French, Korean, dance, candle-making, and D&D. I love games of all sorts: whetehr it's board, card, video, or roleplaying, I'm always down to game! I can't get enough of cosplay, K-Pop, art, camping, animals, karaoke, and trivia, and dearly wish I was a better gardener. Disability advocacy is one of my biggest passions, and I dream of creating things that combine this with my creativity, coding skills, and love of gaming.",
     "section_name": {
       "about": "Creative Nerd",
       "projects": "Passions",
       "skills": "Skills",
-      "experience": "Work Experience",
-      "education": "Education"
-    }
+      "experience": "Volunteer Experience",
+      "education": "Internships"
+    },
+    "image": "profile2.jpg"
   },
   "projects": [
     {
-      "title": "Pets",
-      "startDate": "2006",
-      "description": "My cat Teen Wolf, ball python Melhissandre, and late beagle soulmate, Zoey.",
-      "images": [
-        "images/passions/pets/teen.jpeg",
-        "images/passions/pets/meli.jpg",
-        "images/passions/pets/zoey.jpg"
-      ],
-      "url": "",
-      "technologies": []
-    },
-    {
       "title": "Dogmelon Desiderata",
       "startDate": "2020",
-      "description": "Dogmelon Desiderata: Homemade soy candles made with custom blends of essential oils, fried flora, and upcycled teacups/teapots.",
+      "description": "My side hustle, Dogmelon Desiderata: Selling homemade soy candles made with custom blends of essential oils, dried flora, and upcycled teacups/teapots.",
       "images": [
         "images/passions/candles/rose.jpg",
         "images/passions/candles/treats.jpg",
@@ -42,7 +31,7 @@
     {
       "title": "Gish",
       "startDate": "2013",
-      "description": "Gish, aka the Greatest International Scavenger Hunt (the world has ever seen): A week-long sprint to complete as many creative, bizarre, and ",
+      "description": "Gish, aka the Greatest International Scavenger Hunt (the world has ever seen): A week-long sprint to complete as many creative, bizarre, and charitable challenges as possible. Scavenger hunt challenges have included making a portrait of a Spice Girl out of spices, modeling aquarium fashion, create a portrait of a beloved celebrity out of pet hair, model a dress made of flowers in a flowerless place, portray a superhero doing a mundane household chore, show what would happen if a zombie took over your job, model a fancy kale hat at a fancy event, and paint the Queen as a clicker zombie.",
       "images": [
         "images/passions/gish/spice.jpg",
         "images/passions/gish/fish.jpg",
@@ -55,87 +44,129 @@
       ],
       "url": "https://www.gish.com/",
       "technologies": []
+    },
+        {
+      "title": "Pets",
+      "startDate": "2006",
+      "description": "I'm a pretty big fan of my cat Teen Wolf, ball python Melhissandre, and late beagle soulmate, Zoey.",
+      "images": [
+        "images/passions/pets/teen.jpeg",
+        "images/passions/pets/meli.jpg",
+        "images/passions/pets/zoey.jpg"
+      ],
+      "url": "",
+      "technologies": []
     }
   ],
   "experience": [
     {
-      "company": "People Incorporated",
-      "title": "ARMHS Mental Health Practitioner",
-      "years": "1.2018 - 3.2019",
-      "mainTech": ["Mental Health", "In-Home Care", "Mobile ILS"],
-      "technologies": ["REST API", "RxJS"]
-    },
-    {
-      "company": "Asmodee North America / Fantasy Flight Games",
-      "title": "Sales Administration Coordinator",
-      "years": "01.2016 - 09.2017",
-      "mainTech": ["Board Game Publishing", "Sales"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
-    },
-    {
-      "company": "Radius Health (f. South Metro Human Services)",
-      "title": "Mental Health Counselor",
-      "years": "07.2014 - 12.2015",
-      "mainTech": ["Mental Health", "In-Home Care", "Group Home"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
-    },
-    {
-      "company": "Saint Paul Music Academy",
-      "title": "EBD Teaching Assistant",
-      "years": "10.2013 - 06.2014",
-      "mainTech": ["Mental Health", "Childhood Education"],
+      "company": "Minnesota Superheroes United",
+      "title": "Squirrel Girl",
+      "years": "2018 - present",
+      "mainTech": [ "Charity", "Children's Organization"],
       "technologies": [
-        "React",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Express",
-        "postgreSQL",
-        "REST API",
-        "Cheerio",
-        "Web scraping",
-        "TDD"
+        "Costumed superhero",
+        "Children's charity events",
+        "Parades",
+        "Movie screenings",
+        "Convention booths"
       ]
-    }
+    },
+    {
+      "company": "MN Renaissance Festival",
+      "title": "Fencing Booth Volunteer and Street Performer",
+      "years": "2014 - present",
+      "mainTech": [ "Entertainment", "Ren Fest"],
+      "technologies": [
+        "Character: Scratch, the Feral Dog-Girl",
+        "Fencing Booth Volunteer",
+        "Improv", 
+        "Balloon fencing", 
+        "Street character"
+      ]
+    },
+    {
+      "company": "Wildlife Rehabilitation Center of Minnesota",
+      "title": "Avian Nursery Volunteer",
+      "years": "2013 - 2017",
+      "mainTech": ["Wild birds", "Wildlife Rescue"],
+      "technologies": [
+        "Orphaned hatchlings",
+        "Sick or injured birds",
+        "Hand-feeding", 
+        "Cage cleaning", 
+        "Medication administration",
+        "Health monitoring"
+      ]
+    },
+    {
+      "company": "Midwest Avian Adoption and Rescue Services",
+      "title": "Volunteer: The Landing",
+      "years": "2013 - 2014",
+      "mainTech": ["Exotic bird sanctuary", "Surrendered pets"],
+      "technologies": [
+        "Feeding",
+        "Socialization", 
+        "Talking birds", 
+        "Cage cleaning", 
+        "Flock playtime",
+        "Parrots",
+        "Conures",
+        "Cockatiels"
+      ]
+    },
+    {
+      "company": "Statistical Methodology class: Lewis & Clark College",
+      "title": "Teaching Assistant",
+      "years": "2012",
+      "mainTech": ["Statistics", "Psychology major"],
+      "technologies": [
+        "Grading", 
+        "Office hours",
+        "SPSS Inc"
+      ]
+    },
+    {
+      "company": "Cognitive Neuroscience Lab: Lewis & Clark College",
+      "title": "Lab Assistant",
+      "years": "2011 - 2012",
+      "mainTech": ["Alcohol study", "Statistical analyses", "EEG"],
+      "technologies": [
+        "Effect on alcohol use on risk-takiong behaviors",
+        "Go No-Go test",
+        "Balloon betting test",
+        "EEG implementation",
+        "Consent forms"
+      ]
+      }
   ],
-  "education": [
+    "education": [
     {
-      "company": "Alchemy Code Lab",
-      "title": "Full-Stack Software Developer",
-      "years": "2021",
-      "mainTech": ["Coding Bootcamp"],
+      "company": "Markham Elementary School",
+      "title": "Teaching Assistant Intern",
+      "years": "2012",
+      "mainTech": ["Early Childhood Education", "Emotional and Behavioral Disorders"],
       "technologies": [
-        "100% Remote",
-        "React",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Express",
-        "postgreSQL",
-        "REST API",
-        "Cheerio",
-        "Web scraping",
-        "TDD"
+        "Emotional support", 
+        "1:1 tutoring", 
+        "Special education",
+        "Behavioral redirection",
+        "Crisis intervention"
       ]
     },
-    {
-      "company": "Lewis & Clark College",
-      "title": "B.A. in Psychology",
-      "years": "08.2008 - 05.2012",
-      "mainTech": ["College"],
+      {
+      "company": "Bureau of Criminal Apprehension",
+      "title": "Cold Case Intern",
+      "years": "2011",
+      "mainTech": ["Cold Case File Digitization", "Detective assistant"],
       "technologies": [
-        "Cognitive Neuroscience Lab: Lab Assistant",
-        "Theater Minor",
-        "Markham Elementary School: Childhood Education Internship",
-        "Statistical Methodolog: Teaching Assistant"
+        "Autopsy assistance", 
+        "Handwriting analysis seminar",
+        "Ridealong",
+        "Sex Offender Registry organization",
+        "Search warrant training",
+        "Meeting the families of Jacob Wtterling and Dru Sjodin"
       ]
-    },
-    {
-      "company": "Perpich Center for Arts Education",
-      "title": "High School Diploma in Visual Arts",
-      "years": "09.2006 - 06.2008",
-      "mainTech": ["High School"],
-      "technologies": ["Oil Painting", "Graphic Design", "Printmaking"]
     }
   ]
 }
