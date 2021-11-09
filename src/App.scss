@@ -132,7 +132,9 @@ header {
 
 #resume {
 	background: var(--f-color);
+	margin-left: 0;
 	.vertical-timeline-element-content {
+		margin-left: 0;
 		background: var(--b-color);
 		-webkit-box-shadow: 0 3px 0 var(--h-color);
 		box-shadow: 0 3px 0 var(--h-color);
