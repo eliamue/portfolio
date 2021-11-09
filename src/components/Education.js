@@ -38,6 +38,7 @@ class Education extends Component {
               background: "#b190cd",
               color: "black",
               textAlign: "center",
+              marginLeft: "0px"
             }}
             icon={<SchoolIcon />}
             key={i}
