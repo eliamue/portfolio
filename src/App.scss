@@ -129,11 +129,7 @@ header {
 #resume {
 	background: var(--f-color);
 	.vertical-timeline-element-content {
-		position: relative;
-		margin-left: 0px;
 		background: var(--b-color);
-		border-radius: 0.25em;
-		padding: 1em;
 		-webkit-box-shadow: 0 3px 0 var(--h-color);
 		box-shadow: 0 3px 0 var(--h-color);
 	}
@@ -148,11 +144,7 @@ header {
 	.vertical-timeline-element-content-arrow {
 	border-right: 7px solid black;
 	}
-	.vertical-timeline::before {
-	background: rgb(38, 4, 4);
-	color: black;
-	border: none;
-	}
+
 }
 
 footer {

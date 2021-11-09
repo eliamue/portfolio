@@ -37,8 +37,7 @@ class Experience extends Component {
             iconStyle={{
               background: "#b190cd",
               color: "black",
-              textAlign: "center",
-              marginLeft: "0px"
+              textAlign: "center"
             }}
             icon={<WorkIcon />}
             key={i}
