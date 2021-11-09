@@ -126,6 +126,10 @@ header {
 	position: relative;
 }
 
+#resume .vertical-timeline-element-content {
+		margin-left: 0;
+}
+
 #resume {
 	background: var(--f-color);
 	.vertical-timeline-element-content {
