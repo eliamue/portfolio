@@ -15,12 +15,12 @@
     {
       "title": "RoundRobin",
       "startDate": "2021",
-      "description": "RoundRobin, created in a remote 2-day hackathon Road to Code, is a Discord bot that runs a game of collaborative, roudn robin-style short story telling. The users input a command to be given a randomly generated prompt from a selection of story types, and can tag another user for RoundRobin to alert to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt, and 'speak', which uses Discord's text-to-speech capabilities to read the stroy progress aloud.",
+      "description": "RoundRobin, created in a remote 2-day hackathon called Road to Code, is a Discord bot that runs a game of collaborative, round robin-style short story-telling. The users input a command to be given a randomly generated prompt from a selection of story types, and can tag another user for RoundRobin to alert to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt, and 'speak', which uses Discord's text-to-speech capabilities to read the story progress aloud.",
       "images": [
         "/images/portfolio/robin/robin.png",
-        "/images/portfolio/robin/prompt.png",
-        "/images/portfolio/robin/commands.png",
-        "/images/portfolio/robin/alert.png"
+        "/images/portfolio/robin/add.png",
+        "/images/portfolio/robin/types.png",
+        "/images/portfolio/robin/read.png"
       ],
       "url": "https://github.com/The-Road-to-Code/Willow",
       "technologies": [
@@ -180,15 +180,15 @@
         "Adult Rehabilitative Mental Health Services",
         "Independent Living Skills",
         "Motivational Interviewing",
+        "Dialectic Behavioral Therapy",
+        "Functional Assessments",
+        "Individualized Treatment Plans",
         "Case management",
         "Intake coordination",
         "Client advocacy",
-        "Dialectic Behavioral Therapy",
         "Cross-cultural counseling",
         "Trauma-informed care",
         "IMR module counseling",
-        "Functional Assessments",
-        "Individualized Treatment Plans",
         "Daily case notes"
       ]
     },
@@ -205,8 +205,8 @@
         "E-commerce", 
         "Customer service", 
         "Compliance investigation", 
-        "Product demonstration", 
-        "Convention Rep", 
+        "Product demonstrations", 
+        "Convention representative", 
         "Contract enforcement", 
         "Board game distribution"
       ]
@@ -218,6 +218,7 @@
       "mainTech": ["Mental Health", "In-Home Care", "Group Home"],
       "technologies": [
         "Credible Inc", 
+        "Residential Support Services", 
         "Medication administration", 
         "De-escalation", 
         "Harm reduction", 
@@ -226,7 +227,6 @@
         "Program scheduling", 
         "Incident reports", 
         "Outpatient care", 
-        "Residential Support Services", 
         "Client transportation", 
         "Progress notes"
       ]
@@ -238,9 +238,9 @@
       "mainTech": ["Mental Health", "Childhood Education"],
       "technologies": [
         "Emotional & Behavioral Disorders",
-        "Individualized Education Program",
-        "Special education",
+        "Individualized Education Programs",
         "Social-Emotional Learning",
+        "Special Education",
         "1:1 and group tutoring",
         "Crisis intervention",
         "Behavior redirection",
