@@ -79,7 +79,6 @@
       "mainTech": [ "Entertainment", "Ren Fest"],
       "technologies": [
         "Character: Scratch, the Feral Dog-Girl",
-        "Fencing Booth Volunteer",
         "Improv", 
         "Balloon fencing", 
         "Street character"
@@ -92,7 +91,7 @@
       "mainTech": ["Wild birds", "Wildlife Rescue"],
       "technologies": [
         "Orphaned hatchlings",
-        "Sick or injured birds",
+        "Sick/injured birds",
         "Hand-feeding", 
         "Cage cleaning", 
         "Medication administration",
@@ -132,7 +131,7 @@
       "years": "2011 - 2012",
       "mainTech": ["Alcohol study", "Statistical analyses", "EEG"],
       "technologies": [
-        "Effect on alcohol use on risk-takiong behaviors",
+        "Effect on alcohol use on risk-taking behaviors",
         "Go No-Go test",
         "Balloon betting test",
         "EEG implementation",
@@ -165,7 +164,7 @@
         "Ridealong",
         "Sex Offender Registry organization",
         "Search warrant training",
-        "Meeting the families of Jacob Wtterling and Dru Sjodin"
+        "Meetings with the families of Jacob Wtterling and Dru Sjodin"
       ]
     }
   ]
