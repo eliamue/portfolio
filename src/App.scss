@@ -3,20 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 #root {
-  --a-color: rgb(250, 224, 241);
-  --b-color: rgb(238, 201, 227);
-  --c-color: rgb(228, 191, 217);
-  --d-color: rgb(218, 181, 207);
-  --e-color: rgb(208, 171, 197);
-  --f-color: rgb(199, 161, 187);
-  --g-color: rgb(189, 151, 177);
-  --h-color: rgb(179, 141, 167);
-  --i-color: rgb(169, 131, 157);
-  --j-color: rgb(159, 121, 147);
-  --x-color: #bd92c4;
-  --y-color: #8f6fa9;
-  --z-color: #604278;
-  --zz-color: #532c54;
+  --a-color: rgb(245, 220, 225);
+  --b-color: rgb(235, 210, 215);
+  --c-color: rgb(227, 200, 208);
+  --d-color: rgb(215, 190, 195);
+  --e-color: rgb(205, 180, 185);
+  --f-color: rgb(195, 170, 175);
+  --g-color: rgb(185, 160, 165);
+  --h-color: rgb(175, 150, 155);
+  --i-color: rgb(165, 140, 145);
+  --j-color: rgb(155, 130, 135);
+  --x-color: rgb(221, 188, 201);
+  --y-color: rgb(185, 143, 160);
+  --z-color: rgb(180, 125, 147);
+  //unused
+  --zz-color: #573757;
+  --xx-color: #af9b9b;
+  --yy-color: rgb(175, 135, 155);
 }
 
 html {
@@ -24,6 +27,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .aligner {
@@ -74,10 +78,10 @@ header {
 	background: var(--c-color);
 	overflow: hidden;
 	.card {
-        background: var(--a-color);
+        background: var(--x-color);
     }
 	.card-header {
-	background: var(--b-color);
+	background: var(--y-color);
 }
 }
 
@@ -126,15 +130,10 @@ header {
 	position: relative;
 }
 
-#resume .vertical-timeline-element-content {
-		margin-left: 0;
-}
 
 #resume {
 	background: var(--f-color);
-	margin-left: 0;
 	.vertical-timeline-element-content {
-		margin-left: 0;
 		background: var(--b-color);
 		-webkit-box-shadow: 0 3px 0 var(--h-color);
 		box-shadow: 0 3px 0 var(--h-color);
@@ -145,6 +144,7 @@ header {
 	margin: none;
 	padding: none;
 	border: none;
+	position: absolute;
 	}
 
 	.vertical-timeline-element-content-arrow {
@@ -187,12 +187,12 @@ footer {
 	z-index: -500;
 	border-top: 5px solid #696969;
 	border-radius: 0 0 5px 5px;
-	background-color: #775d7e;
+	background-color: var(--h-color);
 	color: white;
 }
 
 .skills-tile {
-	background-color: transparentize(#5d0196, 0.90);
+	background-color: var(--y-color);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -212,11 +212,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #48243f;
+	border: 5px solid var(--h-color);
 }
 
 .slider-tab {
-	background-color: #49264a;
+	background-color: var(--h-color);
 	height: 25px;
 }
 
@@ -235,7 +235,7 @@ header h1 {
 }
 
 .foto div {
-	background: var(--g-color);
+	background: var(--y-color);
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -284,7 +284,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: var(--e-color);
+	background: var(--z-color);
 	align-items: center;
 	display: inline-block;
 	margin: 55px 75px 30px;
@@ -336,7 +336,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: var(--f-color) !important;
+	background-color: var(--y-color) !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -380,7 +380,7 @@ header h1 {
 .bars li {
 	position: relative;
 	margin-bottom: 60px;
-	background: rgb(179, 151, 184);
+	background: var(--h-color);
 	height: 42px;
 	border-radius: 3px;
 }
@@ -439,7 +439,7 @@ header h1 {
 }
 
 .awssld__content > img {
-	background-color: rgb(104, 71, 106);
+	background-color: var(--z-color);
 	height: fit-content;
 }
 
@@ -458,7 +458,7 @@ header h1 {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background-color: var(--b-color);
+	background-color: var(--h-color);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
