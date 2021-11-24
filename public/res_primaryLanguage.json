@@ -33,7 +33,7 @@
     {
       "title": "Vibn",
       "startDate": "2021",
-      "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two=week sprint using React, Espress, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn is still being developed, and a demo version will be available soon!",
+      "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn is still being developed, and a demo version will be available soon!",
       "images": [
         "https://vibn.netlify.app/0309f44619538eac57555d0789af1b9a.png",
         "/images/portfolio/vibn/profile.jpg",
