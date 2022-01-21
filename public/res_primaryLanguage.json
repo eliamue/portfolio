@@ -12,6 +12,28 @@
     "image": "profile1.jpg"
   },
   "projects": [
+        {
+      "title": "sourceSPOT",
+      "startDate": "2021",
+      "description": "SourceSPOT is a one-stop shop for resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. From technologies to reduce symptoms caused by bright white screens to products to help manage overstimulation, sourceSPOT compiles quality resources for improving life with a brain injury.",
+      "images": [
+        "/images/portfolio/sourcespot/srcspot1.png",
+        "/images/portfolio/sourcespot/srcspot2.png",
+        "/images/portfolio/sourcespot/srcspot3.png",
+        "/images/portfolio/sourcespot/srcspot4.png"
+      ],
+      "url": "https://github.com/The-Road-to-Code/Willow",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
     {
       "title": "RoundRobin",
       "startDate": "2021",
