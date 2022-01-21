@@ -17,10 +17,11 @@
       "startDate": "2021",
       "description": "SourceSPOT is a one-stop shop for resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. From technologies to reduce symptoms caused by bright white screens to products to help manage overstimulation, sourceSPOT compiles quality resources for improving life with a brain injury.",
       "images": [
-        "/images/portfolio/sourcespot/srcspot1.jpg",
-        "/images/portfolio/sourcespot/srcspot2.jpg",
-        "/images/portfolio/sourcespot/srcspot3.jpg",
-        "/images/portfolio/sourcespot/srcspot4.jpg"
+        "/images/portfolio/sourcespot/sourcespot-logo.gif",
+        "/images/portfolio/sourcespot/sourcespot-logo-still.png",
+        "/images/portfolio/sourcespot/sourcespot-home.jpg",
+        "/images/portfolio/sourcespot/sourcespot-list.jpg",
+        "/images/portfolio/sourcespot/sourcespot-search.jpg",
       ],
       "url": "https://github.com/The-Road-to-Code/Willow",
       "technologies": [
@@ -207,6 +208,8 @@
         "CSS",
         "SQL",
         "MySQL",
+        "Sequelize",
+        "Handlebars",
         "Express.js",
         "Node.js",
         "MongoDB",
