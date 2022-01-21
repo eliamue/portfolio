@@ -194,6 +194,28 @@
   ],
   "experience": [
     {
+      "company": "University of Minnesota Coding Bootcamp",
+      "title": "Full-Stack Web Development Teaching Assistant",
+      "years": "2021 - present",
+      "mainTech": ["Coding Bootcamp", "Full-Stack Web Development", "Teaching Assistant", "Remote Teaching", "Office Hours"],
+      "technologies": [
+        "Tri-Weekly Office Hours",
+        "Git",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "SQL",
+        "MySQL",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+        "APIs",
+        "Object-Relational Mapping",
+        "GraphQL",
+        "Agile Workflow"
+      ]
+    },
+    {
       "company": "People Incorporated",
       "title": "ARMHS Mental Health Practitioner",
       "years": "2018 - 2019",
