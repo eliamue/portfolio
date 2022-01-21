@@ -197,9 +197,10 @@
       "company": "University of Minnesota Coding Bootcamp",
       "title": "Full-Stack Web Development Teaching Assistant",
       "years": "2021 - present",
-      "mainTech": ["Coding Bootcamp", "Full-Stack Web Development", "Teaching Assistant", "Remote Teaching", "Office Hours"],
+      "mainTech": ["Coding Bootcamp", "Teaching Assistant", "Web Development"],
       "technologies": [
         "Tri-Weekly Office Hours",
+        "Remote Teaching",
         "Git",
         "Javascript",
         "HTML",
