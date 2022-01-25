@@ -4,7 +4,7 @@
     "description": "Born and raised in the Twin Cities, my hobbies keep me very busy when I'm not coding. I love to learn, and aside from continuing to hone my dev skills, I've been learning French, Korean, dance, candle-making, and D&D. I love games of all sorts: whetehr it's board, card, video, or roleplaying, I'm always down to game! I can't get enough of cosplay, K-Pop, art, camping, animals, karaoke, and trivia, and dearly wish I was a better gardener. Disability advocacy is one of my biggest passions, and I dream of creating things that combine this with my creativity, coding skills, and love of gaming.",
     "section_name": {
       "about": "Creative Nerd",
-      "projects": "Passions",
+      "projects": "Past Projects",
       "skills": "Skills",
       "experience": "Volunteer Experience",
       "education": "Internships"
@@ -12,21 +12,53 @@
     "image": "profile2.jpg"
   },
   "projects": [
-    {
-      "title": "Dogmelon Desiderata",
-      "startDate": "2020",
-      "description": "My side hustle, Dogmelon Desiderata: Selling homemade soy candles made with custom blends of essential oils, dried flora, and upcycled teacups/teapots.",
+        {
+      "title": "Tales of Torr",
+      "startDate": "2021",
+      "description": "The first group project. Tales of Torr: The Quest to Defeat the Everlasting Dragon is a retro RPG inspired game where the user takes on the role of one of three heroes capable of searching for and defeating the everlasting dragon plaguing the town. Fight monsters in the wilderness, improve your strengths with mystical potions, visit a strange laboratory; all this and more in Tales of Torr. Created by a remote team of five during a five day sprint using Javascript, HTML, and CSS.",
       "images": [
-        "images/passions/candles/rose.jpg",
-        "images/passions/candles/treats.jpg",
-        "images/passions/candles/forest.jpg",
-        "images/passions/candles/garden.jpg",
-        "images/passions/candles/paris.jpg",
-        "images/passions/candles/limoncello.jpg",
-        "images/passions/candles/captain3.jpg"
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b58fb237-e248-46ac-9b8b-939d1f8be915/dcmsncj-916adcc9-f0c6-4c6d-8443-aacbcbe0621b.png/v1/fill/w_894,h_894,strp/the_black_dragon_legion_by_projectwarsword_dcmsncj-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwMCIsInBhdGgiOiJcL2ZcL2I1OGZiMjM3LWUyNDgtNDZhYy05YjhiLTkzOWQxZjhiZTkxNVwvZGNtc25jai05MTZhZGNjOS1mMGM2LTRjNmQtODQ0My1hYWNiY2JlMDYyMWIucG5nIiwid2lkdGgiOiI8PTE3MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GeBPQWfKy_f5asMsbCBoLrC31IweHcf6UQC1uiMOCkY",
+        "/images/portfolio/torr/torr-home.png",
+        "/images/portfolio/torr/torr-signup.png",
+        "/images/portfolio/torr/torr-map.png",
+        "/images/portfolio/torr/torr-fight2.png",
+        "/images/portfolio/torr/torr-church.png",
+        "/images/portfolio/torr/torr-defeat.png",
+        "/images/portfolio/torr/torr-boss.png"
       ],
-      "url": "",
-      "technologies": []
+      "url": "https://github.com/MissaelOrtiz/The-Tales-of-Torr-The-Quest-to-Defeat-the-Everlasting-Dragon",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ]
+    },
+        {
+      "title": "RoundRobin",
+      "startDate": "2021",
+      "description": "RoundRobin, created in a remote 2-day hackathon called Road to Code, is a Discord bot that runs a game of collaborative, round robin-style short story-telling. The users input a command to be given a randomly generated prompt from a selection of story types, and can tag another user for RoundRobin to alert to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt, and 'speak', which uses Discord's text-to-speech capabilities to read the story progress aloud.",
+      "images": [
+        "/images/portfolio/robin/robin.png",
+        "/images/portfolio/robin/add.png",
+        "/images/portfolio/robin/types.png",
+        "/images/portfolio/robin/read.png"
+      ],
+      "url": "https://github.com/The-Road-to-Code/Willow",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "node"
+        }
+      ]
     },
     {
       "title": "Gish",
@@ -44,20 +76,76 @@
       ],
       "url": "https://www.gish.com/",
       "technologies": []
-    },
-        {
-      "title": "Pets",
-      "startDate": "2006",
-      "description": "I'm a pretty big fan of my cat Teen Wolf, ball python Melhissandre, and late beagle soulmate, Zoey.",
-      "images": [
-        "images/passions/pets/teen.jpeg",
-        "images/passions/pets/meli.jpg",
-        "images/passions/pets/zoey.jpg"
-      ],
-      "url": "",
-      "technologies": []
     }
   ],
+  "skills": {
+    "icons": [
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain"
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain"
+      },
+      {
+        "name": "Sequelize",
+        "class": "devicon-sequelize-plain"
+      },
+      {
+        "name": "Graphql",
+        "class": "devicon-graphql-plain"
+      },
+      {
+        "name": "jQuery",
+        "class": "devicon-jquery-plain"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon-redux-original"
+      },
+      {
+        "name": "Slack",
+        "class": "devicon-slack-plain"
+      },
+      {
+        "name": "Trello",
+        "class": "devicon-trello-plain"
+      },
+      {
+        "name": "mySQL",
+        "class": "devicon-mysql-plain"
+      },
+      {
+        "name": "Handlebars",
+        "class": "devicon-handlebars-plain"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain"
+      },
+      {
+        "name": "Canva",
+        "class": "devicon-canva-plain"
+      },
+      {
+        "name": "Salesforce",
+        "class": "devicon-salesforce-plain"
+      },
+      {
+        "name": "Socketio",
+        "class": "devicon-socketio-original"
+      },
+      {
+        "name": "SPSS",
+        "class": "devicon-spss-plain"
+      }
+    ]
+},
   "experience": [
     {
       "company": "Minnesota Superheroes United",

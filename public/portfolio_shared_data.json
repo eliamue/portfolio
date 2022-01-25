@@ -1,88 +1,35 @@
 {
-    "basic_info": {
-      "name": "Elise Muellerleile",
-      "titles": [  "Full-Stack Software Engineer", "Front-End Developer", "React Developer", "Javascript Developer", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/eliamue",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/eliamue/",
-          "class": "fab fa-linkedin"
-        },
-        {
-          "name": "email",
-          "url": "mailto:eliamue@live.com",
-          "class": "fa fa-envelope"
-        },
-        {
-          "name": "phone",
-          "url": "tel:6512458607",
-          "class": "fa fa-phone"
-        }
-      ]
-    },
-    "skills": {
-      "icons": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain"
-        },
-        {
-          "class": "devicon-postgresql-plain",
-          "name": "postgreSQL"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "node"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "Express"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain"
-        },
-        {
-          "name": "Django",
-          "class": "devicon-django-plain"
-        },
-        {
-          "name": "VScode",
-          "class": "devicon-visualstudio-plain"
-        },
-        {
-          "name": "Sequelize",
-          "class": "devicon-sequelize-plain"
-        },
-        {
-          "name": "Slack",
-          "class": "devicon-slack-plain"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Elise Muellerleile",
+    "titles": [
+      "Full-Stack Software Engineer",
+      "Front-End Developer",
+      "Back-End Developer",
+      "Javascript Developer",
+      "React Developer",
+      "Mobile Developer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/eliamue",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/eliamue/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "email",
+        "url": "mailto:eliamue@live.com",
+        "class": "fa fa-envelope"
+      },
+      {
+        "name": "phone",
+        "url": "tel:6512458607",
+        "class": "fa fa-phone"
+      }
+    ]
   }
+}

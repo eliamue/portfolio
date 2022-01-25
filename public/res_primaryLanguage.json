@@ -4,7 +4,7 @@
     "description": "I'm Elise Muellerleile. My goal is to combine my background experience with my ever-developing tech skills in software development to improve the inclusivity, beauty, and accessibility of technology. I am passionate about building dynamic apps and web experiences that accommodate the needs of marginalized communities that have long been excluded from innovative technology. Experienced, driven learner and creator. While my background is specialized in the mental health field, I use the diverse skills from my unique experiences to emphasize creativity, empathy, and inclusiveness in my work. Whether it’s working front-end or back-end, alone or in a team, as a leader or supporter, I've got energy and determination to share! I am fiercely dedicated to managing goals end-to-end, and am eager to find a diverse team to work with to develop striking, accessible user experiences.",
     "section_name": {
       "about": "Full-Stack Software Developer",
-      "projects": "Projects",
+      "projects": "Selected Projects",
       "skills": "Skills",
       "experience": "Work Experience",
       "education": "Education"
@@ -12,12 +12,12 @@
     "image": "profile1.jpg"
   },
   "projects": [
-        {
+    {
       "title": "sourceSPOT",
       "startDate": "2021",
       "description": "SourceSPOT is a one-stop shop for resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. From technologies to reduce symptoms caused by bright white screens to products to help manage overstimulation, sourceSPOT compiles quality resources for improving life with a brain injury.",
       "images": [
-        "/images/portfolio/sourcespot/sourcespot-logo-still.png",
+        "/images/portfolio/sourcespot/sourcespot-logo.png",
         "/images/portfolio/sourcespot/sourcespot-home.jpg",
         "/images/portfolio/sourcespot/sourcespot-list.jpg",
         "/images/portfolio/sourcespot/sourcespot-search.jpg"
@@ -31,24 +31,6 @@
         {
           "class": "devicon-css3-plain",
           "name": "CSS"
-        }
-      ]
-    },
-    {
-      "title": "RoundRobin",
-      "startDate": "2021",
-      "description": "RoundRobin, created in a remote 2-day hackathon called Road to Code, is a Discord bot that runs a game of collaborative, round robin-style short story-telling. The users input a command to be given a randomly generated prompt from a selection of story types, and can tag another user for RoundRobin to alert to add a sentence. Other commands include 'read', which returns the full story with every added sentence in order, 'erase', which ends the game by erasing the story and allowing users to start with a new story prompt, and 'speak', which uses Discord's text-to-speech capabilities to read the story progress aloud.",
-      "images": [
-        "/images/portfolio/robin/robin.png",
-        "/images/portfolio/robin/add.png",
-        "/images/portfolio/robin/types.png",
-        "/images/portfolio/robin/read.png"
-      ],
-      "url": "https://github.com/The-Road-to-Code/Willow",
-      "technologies": [
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "node"
         }
       ]
     },
@@ -98,7 +80,7 @@
       ],
       "url": "https://github.com/safeSRC",
       "technologies": [
-{
+        {
           "class": "devicon-react-original",
           "name": "React"
         },
@@ -110,7 +92,7 @@
           "class": "devicon-postgresql-plain",
           "name": "postgreSQL"
         },
-                {
+        {
           "class": "devicon-nodejs-plain",
           "name": "node"
         },
@@ -119,38 +101,74 @@
           "name": "Express"
         }
       ]
-    },
-    {
-      "title": "Tales of Torr",
-      "startDate": "2021",
-      "description": "Tales of Torr: The Quest to Defeat the Everlasting Dragon is a retro RPG inspired game where the user takes on the role of one of three heroes capable of searching for and defeating the everlasting dragon plaguing the town. Fight monsters in the wilderness, improve your strengths with mystical potions, visit a strange laboratory; all this and more in Tales of Torr. Created by a remote team of five during a five day sprint using Javascript, HTML, and CSS.",
-      "images": [
-        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b58fb237-e248-46ac-9b8b-939d1f8be915/dcmsncj-916adcc9-f0c6-4c6d-8443-aacbcbe0621b.png/v1/fill/w_894,h_894,strp/the_black_dragon_legion_by_projectwarsword_dcmsncj-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwMCIsInBhdGgiOiJcL2ZcL2I1OGZiMjM3LWUyNDgtNDZhYy05YjhiLTkzOWQxZjhiZTkxNVwvZGNtc25jai05MTZhZGNjOS1mMGM2LTRjNmQtODQ0My1hYWNiY2JlMDYyMWIucG5nIiwid2lkdGgiOiI8PTE3MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.GeBPQWfKy_f5asMsbCBoLrC31IweHcf6UQC1uiMOCkY",
-        "/images/portfolio/torr/torr-home.png",
-        "/images/portfolio/torr/torr-signup.png",
-        "/images/portfolio/torr/torr-map.png",
-        "/images/portfolio/torr/torr-fight2.png",
-        "/images/portfolio/torr/torr-church.png",
-        "/images/portfolio/torr/torr-defeat.png",
-        "/images/portfolio/torr/torr-boss.png"
-      ],
-      "url": "https://github.com/MissaelOrtiz/The-Tales-of-Torr-The-Quest-to-Defeat-the-Everlasting-Dragon",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-                {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
-        },
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML"
-        }
-      ]
     }
   ],
+
+  "skills": {
+    "icons": [
+      {
+        "name": "React",
+        "class": "devicon-react-original"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain"
+      },
+      {
+        "name": "postgreSQL",
+        "class": "devicon-postgresql-plain"
+      },
+      {
+        "name": "node",
+        "class": "devicon-nodejs-plain"
+      },
+      {
+        "name": "Express",
+        "class": "devicon-express-original"
+      },
+      {
+        "name": "VScode",
+        "class": "devicon-visualstudio-plain"
+      },
+      {
+        "name": "Github",
+        "class": "devicon-github-plain"
+      },
+      {
+        "name": "Heroku",
+        "class": "devicon-heroku-plain"
+      },
+      {
+        "name": "Jest",
+        "class": "devicon-jest-plain"
+      },
+      {
+        "name": "Gitlab",
+        "class": "devicon-gitlab-plain"
+      },
+      {
+        "name": "Webpack",
+        "class": "devicon-webpack-plain"
+      },
+      {
+        "name": "SSH",
+        "class": "devicon-ssh-original"
+      },
+      {
+        "name": "Babel",
+        "class": "devicon-babel-plain"
+      }
+    ]
+  },
+
   "education": [
     {
       "company": "Alchemy Code Lab",
@@ -245,16 +263,16 @@
       "years": "2016 - 2017",
       "mainTech": ["Board Game Publishing", "Sales"],
       "technologies": [
-        "Salesforce", 
-        "Django", 
-        "Zendesk", 
-        "B2B sales", 
-        "E-commerce", 
-        "Customer service", 
-        "Compliance investigation", 
-        "Product demonstrations", 
-        "Convention representative", 
-        "Contract enforcement", 
+        "Salesforce",
+        "Django",
+        "Zendesk",
+        "B2B sales",
+        "E-commerce",
+        "Customer service",
+        "Compliance investigation",
+        "Product demonstrations",
+        "Convention representative",
+        "Contract enforcement",
         "Board game distribution"
       ]
     },
@@ -264,17 +282,17 @@
       "years": "2014 - 2015",
       "mainTech": ["Mental Health", "In-Home Care", "Group Home"],
       "technologies": [
-        "Credible Inc", 
-        "Residential Support Services", 
-        "Medication administration", 
-        "De-escalation", 
-        "Harm reduction", 
-        "Goal management", 
-        "HIPAA compliance", 
-        "Program scheduling", 
-        "Incident reports", 
-        "Outpatient care", 
-        "Client transportation", 
+        "Credible Inc",
+        "Residential Support Services",
+        "Medication administration",
+        "De-escalation",
+        "Harm reduction",
+        "Goal management",
+        "HIPAA compliance",
+        "Program scheduling",
+        "Incident reports",
+        "Outpatient care",
+        "Client transportation",
         "Progress notes"
       ]
     },
