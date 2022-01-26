@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Bonjour, 안녕하세요, and cheers!",
-    "description": "Born and raised in the Twin Cities, my hobbies keep me very busy when I'm not coding. I love to learn, and aside from continuing to hone my dev skills, I've been learning French, Korean, dance, candle-making, and D&D. I love games of all sorts: whetehr it's board, card, video, or roleplaying, I'm always down to game! I can't get enough of cosplay, K-Pop, art, camping, animals, karaoke, and trivia, and dearly wish I was a better gardener. Disability advocacy is one of my biggest passions, and I dream of creating things that combine this with my creativity, coding skills, and love of gaming.",
+    "description": "Born and raised in the Twin Cities, my hobbies keep me very busy when I'm not coding. I love to learn, and aside from continuing to hone my dev skills, I've been learning French, Korean, dance, candle-making, and D&D. I love games of all sorts: board, card, video, or roleplaying, I'm always down to game! Disability advocacy is one of my biggest passions, and I dream of creating things that combine this with my creativity, coding skills, and love of gaming.",
     "section_name": {
       "about": "Creative Nerd",
       "projects": "Past Projects",
@@ -109,10 +109,6 @@
         "class": "devicon-redux-original"
       },
       {
-        "name": "Slack",
-        "class": "devicon-slack-plain"
-      },
-      {
         "name": "Trello",
         "class": "devicon-trello-plain"
       },
@@ -169,7 +165,8 @@
         "Character: Scratch, the Feral Dog-Girl",
         "Improv", 
         "Balloon fencing", 
-        "Street character"
+        "Street character",
+        "Children's charity"
       ]
     },
     {
@@ -223,7 +220,8 @@
         "Go No-Go test",
         "Balloon betting test",
         "EEG implementation",
-        "Consent forms"
+        "Consent forms",
+        "SPSS Inc"
       ]
       }
   ],

@@ -5,7 +5,7 @@
     "section_name": {
       "about": "Full-Stack Software Developer",
       "projects": "Selected Projects",
-      "skills": "Skills",
+      "skills": "Current Tech Stack",
       "experience": "Work Experience",
       "education": "Education"
     },
@@ -180,7 +180,7 @@
       "mainTech": ["Coding Bootcamp"],
       "technologies": [
         "100% Remote",
-        "4x Fullstack hackathons",
+        "Fullstack hackathons x4",
         "React",
         "JavaScript",
         "CSS",
@@ -215,50 +215,43 @@
   ],
   "experience": [
     {
-      "company": "University of Minnesota Coding Bootcamp",
+      "company": "University of Minnesota Coding Bootcamp via Triology Education",
       "title": "Full-Stack Web Development Teaching Assistant",
       "years": "2021 - present",
-      "mainTech": ["Coding Bootcamp", "Teaching Assistant", "Web Development"],
+      "mainTech": ["Remote Coding Bootcamp", "Teaching Assistant", "Web Development"],
       "technologies": [
         "Tri-Weekly Office Hours",
-        "Remote Teaching",
         "Gitlab",
         "Javascript",
         "HTML",
         "CSS",
-        "SQL",
         "MySQL",
         "Sequelize",
         "Handlebars",
         "Express.js",
         "Node.js",
         "MongoDB",
-        "SSH",
-        "APIs",
-        "Object-Relational Mapping",
-        "GraphQL",
-        "Agile Workflow"
+        "GraphQL"
       ]
     },
     {
       "company": "People Incorporated",
       "title": "ARMHS Mental Health Practitioner",
       "years": "2018 - 2019",
-      "mainTech": ["Mental Health", "In-Home Care", "Mobile ILS"],
+      "mainTech": ["Mental Health", "In-Home Care", "Mobile ARMHS/ILS"],
       "technologies": [
         "Adult Rehabilitative Mental Health Services",
         "Independent Living Skills",
         "Motivational Interviewing",
-        "Dialectic Behavioral Therapy",
+        "DBT Skills",
         "Functional Assessments",
-        "Individualized Treatment Plans",
+        "Treatment Plans",
         "Case management",
         "Intake coordination",
         "Client advocacy",
         "Cross-cultural counseling",
         "Trauma-informed care",
-        "IMR module counseling",
-        "Daily case notes"
+        "IMR modules"
       ]
     },
     {
