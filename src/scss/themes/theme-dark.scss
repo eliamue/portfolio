@@ -90,7 +90,7 @@ body[data-theme="dark"] {
 }
 
   #skills {
-    background: #442753;
+    background: #350e26;
     min-height: 200px;
     width: 100%;
     overflow: hidden;
@@ -99,6 +99,7 @@ body[data-theme="dark"] {
   }
 
 .skill-icon {
+  filter: brightness(80%);
 	font-size: 180%;
 	color: #eee1f4;
 	text-align: center;
@@ -111,7 +112,7 @@ body[data-theme="dark"] {
 
   #resume {
     filter: brightness(80%);
-    background: #5a2b5c;
+    background: #4b1e3a;
     color: #eee1f4;
     .section-title {
       color: #eee1f4 !important;
@@ -173,7 +174,8 @@ body[data-theme="dark"] {
   }
 }
 footer {
-	background: var(--zz-color);
+  filter: brightness(80%);
+	background: #502b40;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;

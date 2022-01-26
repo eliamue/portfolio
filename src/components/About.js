@@ -42,7 +42,7 @@ class About extends Component {
                         style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                       />
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="vscode-icons:file-type-sql"
                       style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                     ></span>

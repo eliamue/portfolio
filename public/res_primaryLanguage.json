@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "<HelloWorld/>",
-    "description": "I'm Elise Muellerleile. My goal is to combine my background experience with my ever-developing tech skills in software development to improve the inclusivity, beauty, and accessibility of technology. I am passionate about building dynamic apps and web experiences that accommodate the needs of marginalized communities that have long been excluded from innovative technology. Experienced, driven learner and creator. While my background is specialized in the mental health field, I use the diverse skills from my unique experiences to emphasize creativity, empathy, and inclusiveness in my work. Whether it’s working front-end or back-end, alone or in a team, as a leader or supporter, I've got energy and determination to share! I am fiercely dedicated to managing goals end-to-end, and am eager to find a diverse team to work with to develop striking, accessible user experiences.",
+    "description": "I'm Elise Muellerleile. My goal is to combine my background experience with my ever-developing tech skills in software development to improve the inclusivity, beauty, and accessibility of technology. I am passionate about building dynamic apps and web experiences that accommodate the needs of marginalized communities that have long been excluded from innovative technology. While my background is specialized in the mental health field, I use the diverse skills from my unique experiences to emphasize creativity, empathy, and inclusiveness in my work. Whether it’s working front-end or back-end, solo or in a team, as a leader or supporter, I've got energy and determination to share! I am fiercely dedicated to managing goals end-to-end, and am eager to find a diverse team to work with to develop striking, accessible user experiences.",
     "section_name": {
       "about": "Full-Stack Software Developer",
       "projects": "Selected Projects",
@@ -15,12 +15,15 @@
     {
       "title": "sourceSPOT",
       "startDate": "2021",
-      "description": "SourceSPOT is a one-stop shop for resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. From technologies to reduce symptoms caused by bright white screens to products to help manage overstimulation, sourceSPOT compiles quality resources for improving life with a brain injury.",
+      "description": "SourceSPOT compiles a list of resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. The app utilizes a search bar that allows users to filter the list by keyword, title, category, location, or hidden tag. Development of a sourceSPOT RESTful API, resource detail pages, category radio button filtering, and improved styling is currently in process to flesh out the MVP.",
       "images": [
         "/images/portfolio/sourcespot/sourcespot-logo.png",
-        "/images/portfolio/sourcespot/sourcespot-home.jpg",
-        "/images/portfolio/sourcespot/sourcespot-list.jpg",
-        "/images/portfolio/sourcespot/sourcespot-search.jpg"
+        "/images/portfolio/sourcespot/sourcespot-home.png",
+        "/images/portfolio/sourcespot/sourcespot-resources-top.png",
+        "/images/portfolio/sourcespot/sourcespot-resource.png",
+        "/images/portfolio/sourcespot/sourcespot-list.png",
+        "/images/portfolio/sourcespot/sourcespot-search.png",
+        "/images/portfolio/sourcespot/sourcespot-search-small.png"
       ],
       "url": "https://github.com/The-Road-to-Code/Willow",
       "technologies": [
@@ -37,7 +40,7 @@
     {
       "title": "Vibn",
       "startDate": "2021",
-      "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users  can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. Vibn is still being developed, and a demo version will be available soon!",
+      "description": "Vibn is a mobile-first social media platform that connects authorized Spotify users based on their music tastes, where users can browse each others' top artists and Spotify profiles, as well as message one another. The vaporwave-themed Vibn was developed by a remote team of three during a two-week sprint using React, Express, postgreSQL, Node.js, CSS, HTML, and Spotify Authorization. A demo version of Vibn has been added so that non-authorized users can explore the app, as Spotify's authorization requires that users have their email addresses manually added to a max list of 20 in order to access their API.",
       "images": [
         "https://vibn.netlify.app/0309f44619538eac57555d0789af1b9a.png",
         "/images/portfolio/vibn/profile.jpg",
@@ -219,7 +222,7 @@
       "technologies": [
         "Tri-Weekly Office Hours",
         "Remote Teaching",
-        "Git",
+        "Gitlab",
         "Javascript",
         "HTML",
         "CSS",
@@ -230,6 +233,7 @@
         "Express.js",
         "Node.js",
         "MongoDB",
+        "SSH",
         "APIs",
         "Object-Relational Mapping",
         "GraphQL",
