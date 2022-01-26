@@ -13,8 +13,9 @@
   --h-color: rgb(175, 150, 155);
   --i-color: rgb(165, 140, 145);
   --j-color: rgb(155, 130, 135);
+  --k-color: rgb(114, 96, 123);
   --x-color: rgb(221, 188, 201);
-  --y-color: rgb(136, 111, 122);
+  --y-color: rgb(160, 126, 160);
   --z-color: rgb(180, 125, 147);
   //unused
   --zz-color: #573757;
@@ -280,7 +281,6 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
 }
 
 .polaroid span {
@@ -299,6 +299,7 @@ header h1 {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	width: 290px;
 }
 
 .link-href {

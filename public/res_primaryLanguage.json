@@ -15,7 +15,7 @@
     {
       "title": "sourceSPOT",
       "startDate": "2021",
-      "description": "SourceSPOT compiles a list of resources to help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. The app utilizes a search bar that allows users to filter the list by keyword, title, category, location, or hidden tag. Development of a sourceSPOT RESTful API, resource detail pages, category radio button filtering, and improved styling is currently in process to flesh out the MVP.",
+      "description": "SourceSPOT is a solo personal project I recently started to compile a list of resources that help TBI survivors with recovery, symptom management, and accessibility in day-to-day life. The app utilizes a search bar that allows users to filter the list by keyword, title, category, location, or hidden tag. Development of a sourceSPOT RESTful API, resource detail pages, category radio button filtering, and improved styling is currently in process to flesh out the MVP.",
       "images": [
         "/images/portfolio/sourcespot/sourcespot-logo.png",
         "/images/portfolio/sourcespot/sourcespot-home.png",
